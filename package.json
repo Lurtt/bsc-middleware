@@ -1,0 +1,26 @@
+{
+  "name": "bsc-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prisma:deploy": "npx prisma deploy",
+    "prisma:types": "graphqlgen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4",
+    "prisma-client-lib": "^1.28.0-beta"
+  },
+  "devDependencies": {
+    "graphqlgen": "^0.6.0-rc9",
+    "nodemon": "^1.18.10",
+    "prisma": "^1.27.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  }
+}

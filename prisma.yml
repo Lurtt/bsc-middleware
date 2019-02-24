@@ -1,0 +1,11 @@
+endpoint: https://eu1.prisma.sh/lukas-pospisil-2c7306/bsc-middleware/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/
+  - generator: graphql-schema
+    output: ./generated/
+hooks:
+  post-deploy:
+    - prisma generate
