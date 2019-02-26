@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lurtt/bsc-middleware.git"
+  },
   "scripts": {
     "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,7 +23,7 @@
   "devDependencies": {
     "graphqlgen": "^0.6.0-rc9",
     "nodemon": "^1.18.10",
-    "prisma": "^1.27.0",
+    "prisma": "^1.27.3",
     "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
   }
